@@ -1,0 +1,111 @@
+/* Same previous styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c2b3a; /* Darkish blue background */
+    color: #e0f7fa; /* Light cyan for text */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #00bcd4; /* Light cyan blue for title */
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 12px;
+    margin: 10px;
+    background-color: #263a4e; /* Dark blue input field */
+    border: 1px solid #00bcd4; /* Light blue border */
+    color: #e0f7fa; /* Light text inside input */
+    border-radius: 8px;
+    width: 280px; /* Fixed width for neatness */
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #00bcd4; /* Light cyan blue for button */
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 300px;
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+button:hover {
+    background-color: #0097a7; /* Darker cyan on hover */
+}
+
+.dog-list {
+    width: 100%;
+    max-width: 450px; /* Restrict width */
+    background-color: #2a3c53; /* Slightly lighter dark blue */
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+.dog-item {
+    background-color: #3e5267; /* A slightly lighter blue */
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 15px;
+    transition: background-color 0.3s;
+    display: flex;
+    justify-content: space-between; /* Align content to both sides */
+    align-items: center;
+}
+
+.dog-item:last-child {
+    margin-bottom: 0;
+}
+
+.dog-item:hover {
+    background-color: #4a667d; /* Hover effect for dog items */
+}
+
+.countdown {
+    font-weight: bold;
+    color: #00bcd4; /* Light blue for countdown number */
+}
+
+.delete-btn {
+    background-color: transparent;
+    border: none;
+    color: #e0f7fa;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 1.2em; /* Small size for trash icon */
+    width: 30px; /* Restrict width for the trash icon */
+    height: 30px; /* Square shape for the icon */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete-btn i {
+    font-size: 1.2em; /* Smaller icon size */
+}
+
+.delete-btn:hover {
+    color: #ff4081; /* Pinkish hover effect for the trash icon */
+}
+
+input:focus, button:focus {
+    outline: none;
+    border: 2px solid #00bcd4; /* Highlight focus with light blue */
+}
